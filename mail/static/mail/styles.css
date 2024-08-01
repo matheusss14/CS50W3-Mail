@@ -1,0 +1,55 @@
+textarea {
+    min-height: 400px;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.email {
+    border: 1px solid #e2e2e2;
+    
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 20px;
+
+    cursor: pointer;
+}
+
+.email:hover {
+    background-color: #c0c0c0;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    padding: 10px 0;
+}
+
+.email-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #575757;
+}
+
+#reply, #archive {
+    background-color: rgb(233, 233, 233);
+    border-radius: 6px;
+    padding: 10px;
+    width: 94px;
+    height: 48px;
+}
+
+#reply:hover, #archive:hover {
+    background-color: rgb(210, 210, 210);
+}
